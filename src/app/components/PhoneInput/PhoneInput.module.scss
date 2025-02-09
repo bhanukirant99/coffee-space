@@ -1,0 +1,98 @@
+.container {
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 600;
+	color: #000;
+}
+
+.inputContainer {
+	position: relative;
+	display: flex;
+	gap: 12px;
+	align-items: center;
+	margin-top: 24px;
+}
+
+.countrySelector {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 12px;
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+	cursor: pointer;
+
+	.arrow {
+		font-size: 12px;
+	}
+}
+
+.dropdown {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: white;
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+	width: 250px;
+	max-height: 300px;
+	overflow-y: auto;
+	z-index: 10;
+}
+
+.dropdownItem {
+	padding: 12px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	cursor: pointer;
+
+	&:hover {
+		background: #f7fafc;
+	}
+}
+
+.phoneInput {
+	flex: 1;
+	padding: 12px;
+	border: 1px solid #e2e8f0;
+	border-radius: 8px;
+	font-size: 16px;
+
+	&:focus {
+		outline: none;
+		border-color: #4299e1;
+	}
+}
+
+.disclaimer {
+	color: #718096;
+	font-size: 14px;
+	text-align: center;
+}
+
+.continueButton {
+	background: #4299e1;
+	color: white;
+	padding: 12px;
+	border-radius: 8px;
+	border: none;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: auto;
+
+	&:disabled {
+		background: #cbd5e0;
+		cursor: not-allowed;
+	}
+
+	&:hover:not(:disabled) {
+		background: #3182ce;
+	}
+}
