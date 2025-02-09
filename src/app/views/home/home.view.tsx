@@ -2,16 +2,11 @@
 
 import {
 	User,
-	List,
 	LinkedinLogo,
 	DotsThree,
 	Calendar,
 	MapPin,
 	MagnifyingGlass,
-	Clock,
-	House,
-	CreditCard,
-	ChatCircle,
 	X,
 	BookmarkSimple,
 	Check,
@@ -133,7 +128,7 @@ function HomePage() {
 				</div>
 
 				<div className="bg-white p-4 rounded-lg shadow">
-					<h3 className="font-semibold mb-2">I'm exploring</h3>
+					<h3 className="font-semibold mb-2">I&apos;m exploring</h3>
 					<p className="text-gray-600">{currentProfile.exploring}</p>
 				</div>
 

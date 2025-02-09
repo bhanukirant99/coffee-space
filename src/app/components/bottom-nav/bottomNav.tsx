@@ -1,13 +1,7 @@
 'use client';
 
 import React from 'react';
-import {
-	House,
-	CreditCard,
-	ChatCircle,
-	User,
-	Coffee,
-} from '@phosphor-icons/react';
+import { House, ChatCircle, User, Coffee } from '@phosphor-icons/react';
 import { useRouter } from 'next/navigation';
 function BottomNav() {
 	const router = useRouter();

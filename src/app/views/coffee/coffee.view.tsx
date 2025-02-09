@@ -38,8 +38,8 @@ function CoffeePage() {
 					<div className="text-center py-12 text-gray-500">
 						<div className="mb-4">▶</div>
 						<p>
-							You haven't {activeTab === 'sent' ? 'sent' : 'saved'} any invites
-							yet.
+							You haven&apos;t {activeTab === 'sent' ? 'sent' : 'saved'} any
+							invites yet.
 						</p>
 					</div>
 				) : (
